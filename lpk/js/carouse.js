@@ -77,31 +77,6 @@ var oCarouse=document.getElementById('carouse');
 			}
 		},30);
 	}
-window.onscroll=function(){
-	var oFixBox=document.getElementById('fixed');
-	var oFixUl=oFixBox.getElementsByTagName('ul')[0];
-	var aFixLi=oFixUl.children;
-	var clientHeight=document.documentElement.clientHeight;
-
-	for(var i=0;i<aFixLi.length;i++){
-		var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
-		if(scrollTop+350>=getPos(aFixLi[i]).top){
-			aFixLi[i].className='cur';
-		}else{
-			aFixLi[i].className='';
-		}
-	}
-	function getPos(obj){
-		var top=0;
-		var left=0;
-		while(obj){
-			top+=obj.offsetTop;
-			left+=obj.offsetLeft;
-			obj=obj.offsetParent;
-		}
-		return {top:top,left:left};
-	}
-}
 var oBtn1=document.getElementById('js-product');
 var oBtn2=document.getElementById('js-contact');
 var oBtn3=document.getElementById('js-gotop');
@@ -126,14 +101,6 @@ function getTop(target,time){
 			clearInterval(timer);
 		}
 	},30);
-}
-window.onscroll=function(){
-	document.onmousewheel=function(){
-	 	clearInterval(timer);
-	}
-	document.onkeydown=function(){
-		clearInterval(timer);
-	}
 }
 
 window.onscroll=function(){
