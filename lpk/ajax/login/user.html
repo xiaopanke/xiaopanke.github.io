@@ -23,6 +23,7 @@ window.onload=function(){
 					pass:oPass.value	
 				},
 				success:function(str){
+					console.log(str);
 					var json=eval('('+str+')');
 					if(json.error){
 						alert('^_^注册失败了:'+json.desc);	
