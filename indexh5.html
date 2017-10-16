@@ -32,6 +32,13 @@
     if(IsPC()){
         window.location.href='http://xiaopanke.github.io/'
     }
+    window.onresize = function(){
+        setTimeout(function(){
+            if(IsPC()){
+                window.location.href='http://xiaopanke.github.io/'
+            }
+        }, 10)
+    }
 </script>
 <link rel="stylesheet" href="css/index.css" />
 </head>

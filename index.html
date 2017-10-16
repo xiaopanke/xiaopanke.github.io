@@ -42,8 +42,15 @@
     }
 
     if(!IsPC()){
-		window.location.href='https://xiaopanke.github.io/indexh5.html'
-	}
+        window.location.href='https://xiaopanke.github.io/indexh5.html'
+    }
+    window.onresize = function(){
+        setTimeout(function(){
+            if(!IsPC()){
+                window.location.href='https://xiaopanke.github.io/indexh5.html'
+            }
+        }, 10)
+    }
 </script>
 <link rel="stylesheet" type="text/css" href="files/paper.css">
 	</head>
