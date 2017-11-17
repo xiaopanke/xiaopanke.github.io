@@ -9,9 +9,9 @@
 		background: #f9b92e;
 		overflow: hidden;
 	}
-	
+
 	p{
-		margin: 0;			
+		margin: 0;
 	}
 	img{
 		vertical-align: top;
@@ -87,8 +87,8 @@
 		from{transform: translateY(0);}
 		to{transform: translateY(5px);}
 	}
-	
-	
+
+
 	/*第一部分*/
 	.first{
 		/*-webkit-filter: brightness(1);*/
@@ -325,7 +325,7 @@
 			transform: rotate(360deg);
 		}
 	}
-	
+
 	/*爪子*/
 	.pawsbox{
 		width: 12rem;
@@ -421,7 +421,7 @@
 	.swiper-slide:nth-of-type(3){
 		background-color: #00f;
 	}
-	
+
 	/*第二部分*/
 	.second{
 		background: url(../img/bg2.png) no-repeat ;
@@ -487,7 +487,7 @@
 	}
 	.sideBorder{
 		position: absolute;
-		width: 0.15625rem;	
+		width: 0.15625rem;
 		height: 5.140625rem;
 		bottom: 0;
 		background-color: #fff;
@@ -554,7 +554,7 @@
 		position: absolute;
 		left: 0;
 		top: 0;
-	} 
+	}
 	.condition img{
 		right: -3.2rem;
 		top: -1rem;
@@ -564,7 +564,7 @@
 		position: absolute;
 		right: 0;
 		top: 0;
-	}	
+	}
 	.condition p,.work p{
 		/*visibility: hidden;*/
 		/*position: relative;*/
@@ -633,7 +633,7 @@
 		position: relative;
 		z-index: 99;
 	}
-	
+
 	/*第四部分*/
 	.forth{
 		background: url(../img/bg4.png) no-repeat ;
@@ -651,7 +651,7 @@
 		width: 13.65625rem;
 		/*box-sizing: border-box;*/
 		position: relative;
-		margin: 8.390625rem auto ;		
+		margin: 8.390625rem auto ;
 	}
 	.introduce p{
 		position: relative;
@@ -664,12 +664,12 @@
 		height: 12.5%;
 		float: left;
 		background-color: rgba(0,0,0,0.4);
-		
+
 		perspective: 500px;
 	}
 	.forth .coverBox{
 		transform-style: preserve-3d;
-		/*transform: rotate(-90deg);*/	
+		/*transform: rotate(-90deg);*/
 		width: 100%;
 		height: 100%;
 		position: absolute;
