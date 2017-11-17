@@ -12,8 +12,10 @@
 
 
 .reveal .title {
-  margin-bottom: 1.1em;font-family: "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei"; }
-
+  margin-top: 18px;
+  font-size: 30px; margin-bottom: 0;
+  font-family: "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei"; }
+.reveal .title span{font-size: 18px;}
 .reveal .date {
   color: #ccc;
   font-family: "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
@@ -34,7 +36,7 @@
   overflow: hidden; }
 
 .reveal .l1 {
-  font-size: 2em; 
+  font-size: 2em;
 font-family: "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;}
 
 .reveal .l1 {
@@ -56,4 +58,8 @@ font-family: "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei"
   font-size: 0.5em; font-family: "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;}
 
 .reveal ul {
+  margin-bottom: 20px;
   font-size: 0.7em;font-family: "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
+
+
+.addresslist{width:900px;margin:0 auto; font-size: 12px;}
