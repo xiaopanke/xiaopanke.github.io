@@ -120,28 +120,28 @@
 		width: 3.359375rem;
 		height: 3.703125rem;
 		background: url(../img/2017_2.png) no-repeat;
-		left: 0.7375rem;
+		left: 0.3375rem;
 		top: 4.53125rem;
 	}
 	.timeBox span:nth-of-type(2){
 		width: 3.390625rem;
 		height: 3.203125rem;
 		background: url(../img/2017_0.png) no-repeat;
-		left: 2.89375rem;
-		top: 4.53125rem;
+		left: 2.59375rem;
+		top: 4.63125rem;
 	}
 	.timeBox span:nth-of-type(3){
-		width: 1.671875rem;
-		height: 3.578125rem;
-		background: url(../img/2017_1.png) no-repeat;
-		left: 5.503125rem;
+		width: 3.359375rem;
+		height: 3.703125rem;
+		background: url(../img/2017_2.png) no-repeat;
+		left: 4.803125rem;
 		top: 4.390625rem;
 	}
 	.timeBox span:nth-of-type(4){
 		width: 2.96875rem;
 		height: 3.453125rem;
 		background: url(../img/2017_7.png) no-repeat;
-		left: 6.284375rem;
+		left: 7.284375rem;
 		top: 4.625rem;
 	}
 	.goUp {
